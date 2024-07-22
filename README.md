@@ -1,5 +1,6 @@
 # EC593 Digital Signal Processing Lab
 
+<img src="./EXP1/img/wallpaper.webp">
 
 ## This repo Contains all the Experiment Done in the Lab 
 
