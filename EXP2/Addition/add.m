@@ -10,4 +10,4 @@ function add(x1, n1, x2,n2)
     subplot(1,3,1),stem(t,y1,'*');
     subplot(1,3,2),stem(t,y2,'*');
     subplot(1,3,3),stem(t,y3,'*');
-    end;
+end
