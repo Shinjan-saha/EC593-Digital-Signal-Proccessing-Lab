@@ -24,10 +24,25 @@ function multiplication(x1, n1, x2, n2)
     y3 = y1 .* y2;
     
    
-    subplot(1, 3, 1), stem(t, y1, '*');
-    subplot(1, 3, 2), stem(t, y2, '*');
-    subplot(1, 3, 3), stem(t, y3, '*');
+    subplot(1, 3, 1);
+    stem(t, y1, '*');
+    xlabel('Time');
+    ylabel('Amplitude');
+    title('Input 1');
+
+    subplot(1, 3, 2);
+    stem(t, y2, '*');
+    xlabel('Time');
+    ylabel('Amplitude');
+    title('Input 2');
+
+    subplot(1, 3, 3);
+    stem(t, y3, '*');
+    xlabel('Time');
+    ylabel('Amplitude');
+    title('Output');
 end
+
 
 ```
 
@@ -42,4 +57,4 @@ multiplication(x1, n1, x2, n2);
 ```
 
 ## Output 
-<img src='../img/multi.png'>
+<img src='../img/multilabel.png'>
