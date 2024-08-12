@@ -53,4 +53,4 @@ conv(x,h)
 ```
 
 ## Output 
-<img src='../Linear_Convolution/img/conv.png'>
+<img src='../img/conv.png'>
