@@ -22,7 +22,7 @@ zplane (num, den)
 
 ```
 
-## Output in Command Window 
+## Output in Command Window after running code (Don,t Copy Paste it in your Command window !!)
 
 ```bash
 f =
