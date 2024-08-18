@@ -11,3 +11,11 @@ g=tf (num, den)
 zplane (num, den)
 [p z] =pzmap (num, den)
 
+% for Normalized Frequency Curves
+
+[r p k] =residue (num, den)
+freqz (num, den)
+
+
+
+

@@ -17,9 +17,10 @@ g=tf (num, den)
 zplane (num, den)
 [p z] =pzmap (num, den)
 
+% for Normalized Frequency Curve
 
-
-
+[r p k] =residue (num, den)
+freqz (num, den)
 ```
 
 ## Output in Command Window after running code (Don,t Copy Paste it in your Command window !!)
@@ -51,7 +52,8 @@ g =
   ---------------
   3 s^2 - 4 s + 1
  
-Continuous-time transfer function.Model Properties
+Continuous-time transfer function.
+Model Properties
 
 p =
 
@@ -63,8 +65,27 @@ z =
 
    -0.5000
 
->> 
+
+r =
+
+    1.5000
+   -0.8333
+
+
+p =
+
+    1.0000
+    0.3333
+
+
+k =
+
+     []
+
 ```
 
-## Output 
+## Output (Z-Plane)
 <img src='../img/ztransworking.png'>
+
+## Output (Normalized Frequency Curves)
+<img src='../img/ztranswork.png'>
