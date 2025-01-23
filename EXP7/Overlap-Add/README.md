@@ -39,7 +39,7 @@ Enter the Sequence x(n)=
 Enter the Sequence h(n)= 
 [1 1 1]
 ```
-## Output Command in Command Window(Don,t Copy Paste it in the Coammnd Window)
+## Output  in Command Window(Don,t Copy Paste it in the Command Window)
 
 ```bash
 The output sequence y(n) = 
